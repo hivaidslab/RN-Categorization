@@ -1,14 +1,12 @@
 # RN-Categorization
 
-Categorizes HIV/HTLV integration-site sequencing reads (FASTA) by how many
-R-site and N-site motif occurrences they contain, and writes per-file counts
+Categorizes HIV-1 sequencing reads (FASTA) by how many R-site(RBEIII) and N-site(NF-KB) motif occurrences they contain, and writes per-file counts
 of each category.
 
 ## Background
 
 Each read is scanned for the canonical **R-site** and **N-site** motifs, plus
-every single-base-substitution variant of each (to tolerate one
-sequencing/PCR error per site). A read is then binned by how many R-site and
+every single-base-substitution variant of each. A read is then binned by how many R-site and
 N-site hits it has:
 
 | R-sites | N-sites | Category |
