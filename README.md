@@ -51,11 +51,11 @@ Output (`RN_Counts.txt`) looks like:
 
 ```
 Counts for file: example_data/sample1.fasta
-RN2: 12
-RN3: 4
+RN2: 3
+RN3: 14
 RN4: 1
 R2N2: 0
-R2N3: 0
+R2N3: 20
 R2N4: 0
 others: 3
 ```
