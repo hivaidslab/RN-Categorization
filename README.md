@@ -70,5 +70,5 @@ Standard FASTA files (`.fasta`), one record per read.
 2. Place your `.fasta` files in a folder.
 3. Run the command above, pointing `--input-dir` at that folder.
 
-No paths need to be edited in the script itself. everything is passed via
+No paths need to be edited in the script itself. Everything is passed via
 command-line arguments.
