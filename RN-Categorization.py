@@ -3,7 +3,7 @@
 RN_Categorization.py
 
 Categorize HIV-1 sequenced FASTA reads by the number of
-R-site(RBEIII) and N-site(NF-KB) motif occurrences they contain (e.g. RN2, RN3, RN4,
+R-site(RBEIII) and N-site(NF-κB) motif occurrences they contain (e.g. RN2, RN3, RN4,
 R2N2, R2N3, R2N4, or "others").
 
 Each input FASTA record's sequence is scanned for all 26 single-base
