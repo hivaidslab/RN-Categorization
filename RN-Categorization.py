@@ -30,8 +30,7 @@ import glob
 import os
 from Bio import SeqIO
 
-# Canonical R-site and N-site sequences, plus every single-base-substitution
-# variant of each (accounts for one sequencing/PCR error per site).
+# Canonical R-site and N-site sequences, plus every single-base-substitution.
 R_SITES = [
     'ACTGCTGA', 'ATCGCTGA', 'TCTGCTGA', 'GCTGCTGA', 'CCTGCTGA', 'AATGCTGA',
     'ATTGCTGA', 'AGTGCTGA', 'ACAGCTGA', 'ACGGCTGA', 'ACCGCTGA', 'ACTACTGA',
