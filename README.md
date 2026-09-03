@@ -1,6 +1,6 @@
 # RN-Categorization
 
-Categorizes HIV-1 sequencing reads (FASTA) by how many R-site(RBEIII) and N-site(NF-KB) motif occurrences they contain, and writes per-file counts
+Categorizes HIV-1 sequencing reads (FASTA) by how many R-site(RBEIII) and N-site(NF-κB) motif occurrences they contain, and writes per-file counts
 of each category.
 
 ## Background
@@ -36,9 +36,9 @@ pip install -r requirements.txt
 python RN_Categorization.py --input-dir path/to/fasta_folder --output results/RN_Counts.txt
 ```
 
-- `--input-dir` — a folder containing one or more `.fasta` files, or a glob
+- `--input-dir` - a folder containing one or more `.fasta` files, or a glob
   pattern to a specific set of files (e.g. `"data/*.fasta"`).
-- `--output` — path to the text file the per-file category counts will be
+- `--output` - path to the text file the per-file category counts will be
   written to.
 
 ### Example
@@ -70,5 +70,5 @@ Standard FASTA files (`.fasta`), one record per read.
 2. Place your `.fasta` files in a folder.
 3. Run the command above, pointing `--input-dir` at that folder.
 
-No paths need to be edited in the script itself — everything is passed via
+No paths need to be edited in the script itself. everything is passed via
 command-line arguments.
